@@ -1,12 +1,15 @@
 
+
 pip install pipenv
+pipenv install --python 3.8
 # Create virtual environment, creates pip file to show dependencies
 pipenv shell 
 
 # Install needed dependences/packages 
-pipenv install tkinter
 pipenv install pytube
 pipenv install pyinstaller 
 
+# CMD+SHIFT+P to select Python interpreter 3.8.5
+
 # run pyinstaller to make standalone app
-pyinstaller my_app.py
+pyinstaller --onefile my_app.py --windowed
