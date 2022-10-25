@@ -1,0 +1,12 @@
+
+pip install pipenv
+# Create virtual environment, creates pip file to show dependencies
+pipenv shell 
+
+# Install needed dependences/packages 
+pipenv install tkinter
+pipenv install pytube
+pipenv install pyinstaller 
+
+# run pyinstaller to make standalone app
+pyinstaller my_app.py
